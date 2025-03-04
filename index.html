@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Georgia', serif;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff69b4;
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            animation: fadeIn 2s;
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto;
+            box-shadow: 0 10px 30px rgba(255,105,180,0.2);
+            transition: transform 0.3s;
+        }
+
+        .photo-frame:hover {
+            transform: scale(1.05);
+        }
+
+        .message {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+            line-height: 1.8;
+            font-size: 1.2em;
+            color: #555;
+            margin: 30px 0;
+        }
+
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .heart {
+            font-size: 60px;
+            color: #ff1493;
+            animation: floating 3s ease-in-out infinite;
+            margin: 30px;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>С 8 Марта, Ксюша! 🌸</h1>
+        
+        <div class="photo-frame">
+            <img src="./Снимок экрана 2025-03-04 212954.png" alt="Ксюша" style="width:100%; height:100%; object-fit: cover;">
+        </div>
+
+        <div class="message">
+            <p>Ты — самая прекрасная весна в моей жизни! 🌷</p>
+            <p>Спасибо за твою нежность, улыбки и свет,<br> 
+            Которые делают каждый день ярче! 💖</p>
+            <p>Пусть этот праздник принесёт тебе<br>
+            Столько же радости, сколько ты даришь мне! 🌺</p>
+        </div>
+
+        <div class="heart">❤️</div>
+        
+        <footer>
+            С любовью от самого счастливого человека на свете
+        </footer>
+    </div>
+</body>
+</html>

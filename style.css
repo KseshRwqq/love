@@ -1,0 +1,10 @@
+body {  
+    background: radial-gradient(circle at 50% 50%, #ff0077, #99004d);  
+    cursor: url('data:image/svg+xml;utf8,<svg...>❤️</svg>'), auto;  
+  }  
+  
+  .supernova {  
+    background: linear-gradient(45deg, #ff69b4, #ff1493);  
+    -webkit-background-clip: text;  
+    text-shadow: 0 0 50px rgba(255,105,180,0.7);  
+  }  
