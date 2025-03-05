@@ -1,0 +1,13 @@
+.photo-frame {
+    width: 350px;
+    height: 350px;
+    
+    overflow: hidden;
+    margin: 30px auto;
+    box-shadow: 0 10px 30px rgba(255,105,180,0.2);
+    
+}
+.text{
+    margin: auto;
+    padding: auto;
+}
